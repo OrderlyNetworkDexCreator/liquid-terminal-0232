@@ -1,40 +1,41 @@
 :root {
   --oui-font-family: 'Manrope', sans-serif;
+  --oui-font-size-base: 16px;
 
   /* colors */
-  --oui-color-primary: 176 132 233;
-  --oui-color-primary-light: 213 190 244;
-  --oui-color-primary-darken: 137 76 209;
-  --oui-color-primary-contrast: 255 255 255;
+  --oui-color-primary: 0 20 10;
+  --oui-color-primary-light: 11 0 25;
+  --oui-color-primary-darken: 17 2 34;
+  --oui-color-primary-contrast: 0 25 9;
 
-  --oui-color-link: 189 107 237;
-  --oui-color-link-light: 217 152 250;
+  --oui-color-link: 1 86 18;
+  --oui-color-link-light: 1 25 12;
 
-  --oui-color-secondary: 255 255 255;
-  --oui-color-tertiary: 218 218 218;
-  --oui-color-quaternary: 218 218 218;
+  --oui-color-secondary: 0 20 5;
+  --oui-color-tertiary: 1 24 8;
+  --oui-color-quaternary: 0 20 4;
 
   --oui-color-danger: 245 97 139;
   --oui-color-danger-light: 250 167 188;
   --oui-color-danger-darken: 237 72 122;
-  --oui-color-danger-contrast: 255 255 255;
+  --oui-color-danger-contrast: 19 1 1;
 
   --oui-color-success: 41 233 169;
-  --oui-color-success-light: 101 240 194;
+  --oui-color-success-light: 4 39 2;
   --oui-color-success-darken: 0 161 120;
-  --oui-color-success-contrast: 255 255 255;
+  --oui-color-success-contrast: 5 0 0;
 
   --oui-color-warning: 255 209 70;
   --oui-color-warning-light: 255 229 133;
   --oui-color-warning-darken: 255 152 0;
-  --oui-color-warning-contrast: 255 255 255;
+  --oui-color-warning-contrast: 1 24 3;
 
   --oui-color-fill: 36 32 47;
   --oui-color-fill-active: 40 46 58;
 
-  --oui-color-base-1: 93 83 123;
-  --oui-color-base-2: 81 72 107;
-  --oui-color-base-3: 68 61 69;
+  --oui-color-base-1: 1 35 5;
+  --oui-color-base-2: 3 0 10;
+  --oui-color-base-3: 26 1 30;
   --oui-color-base-4: 57 52 74;
   --oui-color-base-5: 51 46 66;
   --oui-color-base-6: 43 38 56;
@@ -43,13 +44,13 @@
   --oui-color-base-9: 22 20 28;
   --oui-color-base-10: 14 13 18;
 
-  --oui-color-base-foreground: 255 255 255;
-  --oui-color-line: 255 255 255;
+  --oui-color-base-foreground: 1 24 3;
+  --oui-color-line: 1 30 3;
 
   --oui-color-trading-loss: 245 97 139;
-  --oui-color-trading-loss-contrast: 255 255 255;
+  --oui-color-trading-loss-contrast: 15 0 0;
   --oui-color-trading-profit: 41 233 169;
-  --oui-color-trading-profit-contrast: 255 255 255;
+  --oui-color-trading-profit-contrast: 15 0 0;
 
   /* gradients */
   --oui-gradient-primary-start: 40 0 97;
@@ -91,4 +92,9 @@
   --oui-spacing-md: 26.25rem;
   --oui-spacing-lg: 30rem;
   --oui-spacing-xl: 33.75rem;
+}
+
+html, body {
+  font-family: 'Manrope', sans-serif !important;
+  font-size: 16px !important;
 }
